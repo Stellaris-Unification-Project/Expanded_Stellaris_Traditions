@@ -83,8 +83,10 @@ est_benevolence_possible = {
         AND = {
 			is_gestalt = yes
             est_is_no_dip_empire = no
-            NOT = { has_tradition = tr_est_destruction_adopt }
-            NOT = { has_tradition = tr_est_fury_adopt }
+            NOR = {
+	has_tradition = tr_est_destruction_adopt
+	has_tradition = tr_est_fury_adopt
+}
         }
     }
 }
@@ -227,8 +229,10 @@ est_proselytism_possible = {
         est_all_traditions_able = yes
         AND = {
             is_regular_empire = yes
-            NOT = { has_civic = civic_inwards_perfection }
-            NOT = { has_tradition = tr_est_isolation_adopt }
+            NOR = {
+	has_civic = civic_inwards_perfection
+	has_tradition = tr_est_isolation_adopt
+}
         }
     }
 }
@@ -245,8 +249,10 @@ est_destruction_possible = {
         est_all_traditions_able = yes
         AND = {
             is_gestalt = yes
-            NOT = { has_tradition = tr_est_benevolence_adopt }
-            NOT = { has_civic = civic_machine_servitor }
+            NOR = {
+	has_tradition = tr_est_benevolence_adopt
+	has_civic = civic_machine_servitor
+}
         }        
     }
 }
@@ -263,8 +269,10 @@ est_fury_possible = {
         est_all_traditions_able = yes
         AND = {
             is_gestalt = yes
-            NOT = { has_tradition = tr_est_benevolence_adopt }
-            NOT = { has_civic = civic_machine_servitor }
+            NOR = {
+	has_tradition = tr_est_benevolence_adopt
+	has_civic = civic_machine_servitor
+}
         }        
     }
 }

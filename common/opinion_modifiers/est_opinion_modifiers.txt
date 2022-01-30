@@ -397,10 +397,8 @@ opinion_est_philosophy_3 = {
 			has_active_tradition = tr_est_philosophy_3
 		}
 		root = {
-			Not = {
+			NOR = {
 				has_ethic = ethic_gestalt_consciousness
-			}
-			Not = {
 				is_country_type = fallen_empire
 			}
 		}	

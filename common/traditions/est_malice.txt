@@ -22,9 +22,7 @@ tr_est_malice_adopt = {
 		trigger = {
 			OR = {
 				is_ai = yes
-				has_valid_civic = civic_fanatic_purifiers
-				has_valid_civic = civic_hive_devouring_swarm
-				has_valid_civic = civic_machine_terminator
+				is_homicidal = yes
 			}
 		}	
 		modifier = {

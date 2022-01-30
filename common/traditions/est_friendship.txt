@@ -138,10 +138,7 @@ tr_est_friendship_5 = {
 		inherit_icon = yes
 		inherit_name = yes
 		trigger = {
-			NOR = {
-				has_ethic = ethic_fanatic_xenophile
-				has_ethic = ethic_xenophile
-			}
+			is_xenophile = no
 		}	
 		modifier = {
 			planet_immigration_pull_mult  = 0.50

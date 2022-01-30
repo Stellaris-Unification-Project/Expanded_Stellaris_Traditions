@@ -145,10 +145,7 @@ tr_est_piracy_5 = {
 		inherit_name = yes
 		trigger = {
 			has_policy_flag = slavery_allowed
-			NOR = {
-				has_ethic = ethic_fanatic_egalitarian
-				has_ethic = ethic_egalitarian
-			}
+			is_egalitarian = no
 		}
 		modifier = {
 			pop_cat_ruler_happiness = 0.15

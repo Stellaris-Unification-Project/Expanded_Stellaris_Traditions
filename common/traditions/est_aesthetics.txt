@@ -82,8 +82,7 @@ tr_est_aesthetics_finish = {
 		inherit_name = yes
 		trigger = {
 			OR = {
-				has_ethic = ethic_spiritualist
-				has_ethic = ethic_fanatic_spiritualist
+				is_spiritualist = yes
 				has_authority = auth_corporate
 			}
 		}	
@@ -141,10 +140,7 @@ tr_est_aesthetics_3 = {
 				has_ethic = ethic_fanatic_xenophobe
 				has_ethic = ethic_xenophobe		
 			}
-			NOR = {
-				has_ethic = ethic_fanatic_pacifist
-				has_ethic = ethic_pacifist	
-			}
+			is_pacifist = no
 		}	
 		on_enabled = {
 			if = {
